@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+source 'https://github.com/yuxiaoxi/VerticalLoopView.git'
+
+target "CompileCheck" do
+    pod 'VerticalLoopView', :path => '../VerticalLoopView.podspec'
+end
